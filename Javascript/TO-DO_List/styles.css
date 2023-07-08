@@ -1,0 +1,66 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #FCFFE7;
+
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    background-color: #BAD7E9;
+}
+
+h1 {
+    text-align: center;
+    color: #2B3467;
+}
+
+#task_form {
+    margin-bottom: 10px;
+}
+
+#task_input {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    color: #1935d2;
+    border-radius: 5px;
+}
+
+#add_button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#show_button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.delete_button {
+    margin-left: 5px;
+    padding: 2px 6px;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
